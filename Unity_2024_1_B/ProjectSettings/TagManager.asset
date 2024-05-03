@@ -8,6 +8,8 @@ TagManager:
   - Item
   - Taarget
   - Target
+  - GameManager
+  - GameManger
   layers:
   - Default
   - TransparentFX
