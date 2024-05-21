@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8437501085427047113}
   - component: {fileID: 1765686972067489974}
   - component: {fileID: 506448438256667216}
+  - component: {fileID: 2373378750167226369}
   m_Layer: 0
-  m_Name: CircleObject
-  m_TagString: Untagged
+  m_Name: CircleObject _05
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +153,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7ccc026100c840748b37839fb0723c20, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b69ba24559b584a4e867fbcb869d6c1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -163,3 +164,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2373378750167226369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507468223036027538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4467fdc8a9ddc1d49a2ffcfedd5158d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDrag: 0
+  isUsed: 0
